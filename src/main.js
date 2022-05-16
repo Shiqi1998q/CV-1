@@ -75,15 +75,8 @@ let step = () => {
             step();
         }
 
-    }, 0)
+    }, 10)
 }
 step();
 
-// setTimeout(() => {
-//     console.log('hognse')
-//     style.innerHTML = `
-// body{
-//     color:red;
-// }  `;
-// }, 3000);
 
